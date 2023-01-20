@@ -1,0 +1,22 @@
+:root{
+    --main-color:#C6EBBE;
+    --background-color: rgb(51, 51, 51);
+}
+
+.bg-jasmine{
+    background-color: var(--main-color);
+}
+
+.row-hero{
+
+}
+
+.hero-text{
+
+}
+
+@media screen and (max-width: 768px) {
+    .hero-text{
+        text-decoration: ;
+    }
+  }

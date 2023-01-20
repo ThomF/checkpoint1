@@ -1,38 +1,52 @@
 :root{
     --main-color:#8cbd81;
-    --background-color: #a0be99;
+    --background-color: #90bc86;
 }
 
 .bg-jasmine{
     background-color: var(--main-color);
 }
 
-.p-card{
-   
-}
 
 .hero-img{
-background-image: url(https://images.unsplash.com/photo-1479658744930-03854858a953?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=421&q=80);
+    background-image: url(https://images.unsplash.com/photo-1479658744930-03854858a953?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=421&q=80);
 }
 .tea-img{
-    height: 42vh;
+    height: 60vh;
     width: 80%;
     object-fit: cover;
 }
 .bg-vh{
     height: 42vh;
 }
+
 .row-vh{
     height:33vh
 }
+/* NOTE Card edits */
 .tall-card{
     height: 16.2em;
+}
+.width-card{
+    width: 22em;
+}
+.hero-card{
+    height: 20em;
 }
 .bg-card{
     background-color: var(--background-color);
 }
 .float-card{
     transform: translateY(1vh);
+}
+.small-c-review{
+    padding-left: 5em;
+}
+.bg-c-vh{
+    height: 60vh;
+}
+.card-three-pb{
+    padding-bottom: 20em;
 }
 .green-text{
     color: #569648;

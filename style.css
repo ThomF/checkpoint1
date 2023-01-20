@@ -1,18 +1,14 @@
 :root{
     --main-color:#8cbd81;
-    --background-color: rgb(51, 51, 51);
+    --background-color: #a0be99;
 }
 
 .bg-jasmine{
     background-color: var(--main-color);
 }
 
-.row-hero{
-
-}
-
-.hero-text{
-
+.p-card{
+   
 }
 
 .hero-img{
@@ -20,7 +16,7 @@ background-image: url(https://images.unsplash.com/photo-1479658744930-03854858a9
 }
 .tea-img{
     height: 42vh;
-    width: 100%;
+    width: 80%;
     object-fit: cover;
 }
 .bg-vh{
@@ -32,13 +28,16 @@ background-image: url(https://images.unsplash.com/photo-1479658744930-03854858a9
 .tall-card{
     height: 16.2em;
 }
-
+.bg-card{
+    background-color: var(--background-color);
+}
 .float-card{
     transform: translateY(1vh);
 }
 .green-text{
     color: #569648;
 }
+/*NOTE @media */
 @media screen and (max-width: 768px) {
     /* .hero-text{
         text-decoration: ;

@@ -18,7 +18,11 @@
 .hero-img{
 background-image: url(https://images.unsplash.com/photo-1578059456805-cd4809a05d70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80) ;
 }
-
+.tea-img{
+    height: 30vh;
+    width: 100%;
+    object-fit: cover;
+}
 .bg-vh{
     height: 50vh;
 }
@@ -26,15 +30,21 @@ background-image: url(https://images.unsplash.com/photo-1578059456805-cd4809a05d
     height:35vh
 }
 .tall-card{
-    height: 17em;
+    height: 16.2em;
 }
 
 .float-card{
     transform: translateY(1vh);
 }
-
+.green-text{
+    color: #569648;
+}
 @media screen and (max-width: 768px) {
-    .hero-text{
+    /* .hero-text{
         text-decoration: ;
+    } */
+
+    .float-card{
+        transform: none;
     }
   }

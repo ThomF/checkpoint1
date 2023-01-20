@@ -15,6 +15,10 @@
 
 }
 
+.bg-vh{
+    height: 50vh;
+}
+
 @media screen and (max-width: 768px) {
     .hero-text{
         text-decoration: ;

@@ -9,6 +9,13 @@ header{
     font-family: Courgette;
 }
 
+.bar{
+    width: 5px;
+    height: 50px;
+    background: var(--background-color);
+}
+
+/* NOTE backgrounds and images */
 .bg-jasmine{
     background-color: var(--main-color);
 }
@@ -244,9 +251,6 @@ header{
         padding-left: 0;
     
     }
-    .float-card{
-        transform: translateY(0);
-    }
     .tall-card{
         height: 17.2em;
     }
@@ -255,5 +259,8 @@ header{
     }
     .padding-shift{
         padding-left: 4em;
+    }
+    .bg-vh{
+        height: 50vh;
     }
 }

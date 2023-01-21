@@ -71,12 +71,12 @@ header{
     padding-left: 2rem;
 }
 /*NOTE @media */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1680px) {
     .float-card{
         transform: translateY(0);
     }
     .tall-card{
-        height: 15.2em;
+        height: 14.2em;
     }
     .row-vh{
         height:49vh
@@ -121,7 +121,7 @@ header{
         padding-left: 0;
     }
 }
-@media screen and (max-width: 1680px) {
+/* @media screen and (max-width: 1680px) {
 
     .float-card{
         transform: translateY(0);
@@ -130,9 +130,9 @@ header{
         height: 17.2em;
     }
     .row-vh{
-        height:25vh
+        height:49vh
     }
-}
+} */
 @media screen and (min-width: 1800px) {
 
     .float-card{

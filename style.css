@@ -193,18 +193,7 @@ header{
         order: 3;
     }
 }
-/* @media screen and (max-width: 1800px)  {
 
-    .float-card{
-        transform: translateY(0);
-    }
-    .tall-card{
-        height: 17.2em;
-    }
-    .row-vh{
-        height:49vh
-    }
-}  */
 @media screen and (min-width: 1800px) {
 
     .float-card{

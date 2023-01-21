@@ -35,7 +35,9 @@ header{
 .align-btn{
     align-self: flex-end;
 }
-
+.gray-text{
+    font-family: Courgette;
+}
 /* NOTE Card edits */
 .tall-card{
     height: 16.2em;

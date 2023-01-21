@@ -2,6 +2,7 @@
     --main-color:#8cbd81;
     --background-color: #90bc86;
     --background-color-dark: #618b57;
+    --coolor: #0f295ca7;
 }
 
 .bg-jasmine{
@@ -59,10 +60,6 @@
 }
 /*NOTE @media */
 @media screen and (max-width: 768px) {
-    /* .hero-text{
-        text-decoration: ;
-    } */
-
     .float-card{
         transform: translateY(0);
     }
@@ -73,7 +70,24 @@
         height:49vh
     }
     .bg-vh{
-        height: 42vh;
+        height: 32vh;
+    }
+    .width-card{
+        width: 18em;
+    }
+    .r-vh-r{
+        height: 100vh;
+    }
+    .tea-img{
+        height: 60vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    .cntr-text{
+        text-align: center;
+    }
+    .pt-mobile{
+        padding-top: 1em;
     }
 }
 @media screen and (min-width: 1680px) {

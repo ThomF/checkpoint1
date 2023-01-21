@@ -27,6 +27,11 @@
 .row-vh{
     height:33vh
 }
+
+.align-btn{
+    align-self: flex-end;
+}
+
 /* NOTE Card edits */
 .tall-card{
     height: 16.2em;
@@ -84,10 +89,26 @@
         object-fit: cover;
     }
     .cntr-text{
-        text-align: center;
+        text-align: left;
     }
     .pt-mobile{
         padding-top: 1em;
+        padding-bottom: 2.5em;
+    }
+    .padding-plus{
+        padding: 3em 2em 2em .5em;
+    }
+    .text-shrink{
+        font-size: 1em;
+    }
+    .text-shrink-sub{
+        font-size: .6em;
+    }
+    .bb-txt{
+        padding: 1em 1em 2em 1em;
+    }
+    .card-review-pl{
+        padding-left: 55px;
     }
 }
 @media screen and (min-width: 1680px) {

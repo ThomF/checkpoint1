@@ -63,6 +63,9 @@
 .p-align-below{
     align-items: flex-end;
 }
+.card-padding-l{
+    padding-left: 2rem;
+}
 /*NOTE @media */
 @media screen and (max-width: 768px) {
     .float-card{
@@ -110,8 +113,11 @@
     .card-review-pl{
         padding-left: 55px;
     }
+    .card-padding-l{
+        padding-left: 0;
+    }
 }
-@media screen and (min-width: 1680px) {
+@media screen and (max-width: 1680px) {
 
     .float-card{
         transform: translateY(0);

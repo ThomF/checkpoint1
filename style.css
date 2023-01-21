@@ -73,7 +73,12 @@ header{
     padding-left: 2rem;
 }
 #card1:hover{
-    transform: translateY(-1.5vh);
+    transform: translateY(-1vh);
+    box-shadow: #000000;
+    transform: scale(1.2);
+}
+#card1{
+    transition: background-color .6s ease, transform 0.3s ease-in-out;
 }
 
 /*NOTE @media */

@@ -10,10 +10,9 @@ header{
 }
 
 .bar{
-    width: 1em;
-    height: 8em;
+    width: .5em;
+    height: 5em;
     background: var(--background-color);
-
 }
 
 /* NOTE backgrounds and images */
@@ -106,6 +105,11 @@ header{
 
 /*NOTE @media */
 @media screen and (max-width: 768px) {
+    .bar{
+        width: 0;
+        height: 0;
+        background: var(--background-color);
+    }
     .float-card{
         transform: translateY(0);
     }
@@ -250,7 +254,6 @@ header{
 @media screen and (min-width: 1240px) {
     .perfect-padding{
         padding-left: 0;
-    
     }
     .tall-card{
         height: 17.2em;
@@ -263,5 +266,8 @@ header{
     }
     .bg-vh{
         height: 50vh;
+    }
+    .float-card{
+        transform: translateY(1vh);
     }
 }

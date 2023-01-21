@@ -81,13 +81,18 @@ header{
     transition: background-color .6s ease, transform 0.3s ease-in-out;
 }
 
+.form-height{
+    width: 30em;
+}
+
+
 /*NOTE @media */
 @media screen and (max-width: 737px) {
     .float-card{
         transform: translateY(0);
     }
     .tall-card{
-        height: 16.2em;
+        height: 14.2em;
     }
     .row-vh{
         height: 50vh;
@@ -139,6 +144,14 @@ header{
     }
     .order-card-3{
         order: 3;
+    }
+    #card1:hover{
+        transform: none;
+        box-shadow: #000000;
+        transform: none;
+    }
+    .form-height{
+        width: auto;
     }
 }
 @media screen and (max-width: 1239px) and (min-width: 738px) {

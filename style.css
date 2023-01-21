@@ -5,6 +5,10 @@
     --coolor: #0f295ca7;
 }
 
+header{
+    font-family: Courgette;
+}
+
 .bg-jasmine{
     background-color: var(--main-color);
 }

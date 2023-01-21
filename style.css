@@ -40,7 +40,7 @@ header{
 }
 /* NOTE Card edits */
 .tall-card{
-    height: 16.2em;
+    height: 18.2em;
 }
 .width-card{
     width: 22em;
@@ -72,19 +72,80 @@ header{
 .card-padding-l{
     padding-left: 2rem;
 }
+
+
 /*NOTE @media */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 737px) {
     .float-card{
         transform: translateY(0);
     }
     .tall-card{
-        height: 14.2em;
+        height: 16.2em;
     }
     .row-vh{
-        height:49vh
+        height: 50vh;
     }
     .bg-vh{
-        height: 53vh;
+        height: 54vh;
+    }
+    .width-card{
+        width: 18em;
+    }
+    .r-vh-r{
+        height: 100vh;
+    }
+    .tea-img{
+        height: 60vh;
+        width: 100%;
+        object-fit: cover;
+    }
+    .cntr-text{
+        text-align: left;
+    }
+    .pt-mobile{
+        padding-top: 1em;
+        padding-bottom: 2.5em;
+    }
+    .padding-plus{
+        padding: 3em 2em 2em .5em;
+    }
+    .text-shrink{
+        font-size: 1em;
+    }
+    .text-shrink-sub{
+        font-size: .6em;
+    }
+    .bb-txt{
+        padding: 1em 1em 2em 1em;
+    }
+    .card-review-pl{
+        padding-left: 55px;
+    }
+    .card-padding-l{
+        padding-left: 0;
+    }
+    .order-card-1{
+        order: 1;
+    }
+    .order-card-2{
+        order: 2;
+    }
+    .order-card-3{
+        order: 3;
+    }
+}
+@media screen and (max-width: 1239px) and (min-width: 738px) {
+    .float-card{
+        transform: translateY(0);
+    }
+    .tall-card{
+        height: 16.2em;
+    }
+    .row-vh{
+        height: 35vh;
+    }
+    .bg-vh{
+        height: 70vh;
     }
     .width-card{
         width: 18em;

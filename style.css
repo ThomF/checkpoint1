@@ -72,7 +72,9 @@ header{
 .card-padding-l{
     padding-left: 2rem;
 }
-
+#card1:hover{
+    transform: translateY(-1.5vh);
+}
 
 /*NOTE @media */
 @media screen and (max-width: 737px) {

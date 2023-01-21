@@ -1,7 +1,7 @@
 :root{
     --main-color:#8cbd81;
     --background-color: #90bc86;
-    --background-color-dark: #8fe6ac;
+    --background-color-dark: #618b57;
 }
 
 .bg-jasmine{
@@ -54,6 +54,9 @@
 .green-text{
     color: #569648;
 }
+.p-align-below{
+    align-items: flex-end;
+}
 /*NOTE @media */
 @media screen and (max-width: 768px) {
     /* .hero-text{
@@ -68,6 +71,9 @@
     }
     .row-vh{
         height:49vh
+    }
+    .bg-vh{
+        height: 42vh;
     }
 }
 @media screen and (min-width: 1680px) {

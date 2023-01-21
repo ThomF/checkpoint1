@@ -16,7 +16,7 @@
 </head>
 
 <!--NOTE debug-->
-<!-- <style>
+<style>
     body.debug .container,
     body.debug .container-fluid {
         outline: 2px double blue;
@@ -32,14 +32,14 @@
         outline: 2px dotted forestgreen;
         outline-offset: -3px;
     }
-</style> -->
+</style>
 
 
 <body class="debug">
     <!--NOTE HEADER-->
-    <header>
+    <header class="sticky-top">
         <div class="container-fluid">
-            <div class="row bg-jasmine pt-2 pb-2 d-flex flex-row">
+            <div class="row bg-jasmine pt-2 pb-2 d-flex flex-row sticky-top">
                 <div class="col-1 text-center d-flex flex-row">
                     <i class=" mdi mdi-cup fs-2 ps-md-4"></i>
                 </div>
@@ -53,7 +53,9 @@
     <main>
         <div class="container-fluid">
             <div class="row bg-vh hero-img">
+
                 <!--NOTE FORM-->
+
                 <div class="col-md-5 pt-md-3 pt-2  ps-md-4">
                     <h3 class="text-light">Join Irohs Team</h3>
                     <div class="card text-start">
@@ -84,7 +86,7 @@
 
         <div class="container-fluid pb-5">
             <div class="row bg-jasmine row-vh ">
-                <div class="order-2 order-md-1 col-md-6 pt-md-5 ps-md-4">
+                <div class="order-2 order-md-1 col-md-6 pt-md-5 ps-md-4 text-center">
                     <h1>Lorem, ipsum dolor.</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius, accusantium!</p>
                 </div>
@@ -93,32 +95,32 @@
                     <div class="card tall-card text-start float-card">
                         <div class="card-body">
                             <div class="row">
-                                <div class="col-1 text-center pt-3 fs-3">
-                                    <i class="green-text mdi mdi-file"></i>
+                                <div class="col-1 text-center fs-3">
+                                    <i class="green-text mdi mdi-tea"></i>
                                 </div>
                                 <div class="col-11">
                                     <h2 class="gray-text">Green Tea</h2>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-1 text-center pt-3 fs-3">
-                                    <i class="green-text mdi mdi-file"></i>
+                                <div class="col-1 text-center fs-3">
+                                    <i class="green-text mdi mdi-tree"></i>
                                 </div>
                                 <div class="col-11">
                                     <h2 class="gray-text">Ginger Tea</h2>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-1 text-center pt-3 fs-3">
-                                    <i class="green-text mdi mdi-file"></i>
+                                <div class="col-1 text-center fs-3">
+                                    <i class="green-text mdi mdi-spa"></i>
                                 </div>
                                 <div class="col-11">
                                     <h2 class="gray-text">Milk Tea</h2>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-1 text-center pt-3 fs-3">
-                                    <i class="green-text mdi mdi-file"></i>
+                                <div class="col-1 text-center fs-3">
+                                    <i class="green-text mdi mdi-leaf"></i>
                                 </div>
                                 <div class="col-11">
                                     <h2 class="gray-text">Oolong Tea</h2>
@@ -140,7 +142,7 @@
                 <!--SECTION lorem text right of image-->
                 <div class="col-md-7 pt-5">
                     <div class="order-2 order-md-2 row">
-                        <div class="col-1 text-center pt-3 fs-3">
+                        <div class="col-1 text-center pt-2 fs-3">
                             <i class="green-text mdi mdi-fire"></i>
                         </div>
                         <div class="col-11">
@@ -160,43 +162,56 @@
         <!--NOTE Review Cards-->
         <div class="container-fluid">
             <div
-                class="row text-center d-flex flex-row align-items-center justify-content-around pt-md-5 bg-card small-c-review bg-c-vh pb-md-5 pe-md-5">
-                <div class="card width-card">
-                    <div class="card-body">
-                        <p class="card-text">"THERE IS NO WAR IN BA SING SE.THERE IS NO WAR IN BA SING SE.THERE IS NO
-                            WAR
-                            IN BA SING SE."</p>
-                        <h5 class="card-title green-text">Joo Dee</h5>
-                        <h6 class="card-subtitle mb-2 green-text">See a local Joo Dee for clarification!</h6>
-                    </div>
-                </div>
-                <div class="card width-card hero-card">
-                    <div class="card-body">
-                        <div class="align-items-center justify-content-evenly d-flex flex-row">
-                            <i class="green-text mdi mdi-star fs-1"></i>
-                            <i class="green-text mdi mdi-star fs-1"></i>
-                            <i class="green-text mdi mdi-star fs-1"></i>
-                            <i class="green-text mdi mdi-star fs-1"></i>
+                class="row text-center align-items-center justify-content-around pt-md-5 bg-card small-c-review bg-c-vh pb-md-5 pe-md-5">
+                <div class="col-md-4">
+                    <div class="card width-card">
+                        <div class="card-body">
+                            <p class="card-text">"THERE IS NO WAR IN BA SING SE.THERE IS NO WAR IN BA SING SE.THERE IS
+                                NO
+                                WAR
+                                IN BA SING SE."</p>
+                            <h5 class="card-title green-text">Joo Dee</h5>
+                            <h6 class="card-subtitle mb-2 green-text">See a local Joo Dee for clarification!</h6>
                         </div>
-                        <p class="card-text">"This Tea is incredibly delicious! I come by every morning and get a nice
-                            hot cup of tea on my way to work." </p>
-                        <h5 class="card-title green-text">Uncle Iroh</h5>
-                        <h6 class="card-subtitle green-text">Local Earth Bender</h6>
                     </div>
                 </div>
-                <div class="card width-card">
-                    <div class="card-body">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <h5 class="card-title green-text">Card title</h5>
-                        <h6 class="card-subtitle mb-2 green-text">Card subtitle</h6>
+                <div class="col-md-4">
+                    <div class="card width-card hero-card">
+                        <div class="card-body">
+                            <div class="align-items-center justify-content-evenly d-flex flex-row">
+                                <i class="green-text mdi mdi-star fs-1"></i>
+                                <i class="green-text mdi mdi-star fs-1"></i>
+                                <i class="green-text mdi mdi-star fs-1"></i>
+                                <i class="green-text mdi mdi-star fs-1"></i>
+                            </div>
+                            <p class="card-text">"This Tea is incredibly delicious! I come by every morning and get a
+                                nice
+                                hot cup of tea on my way to work." </p>
+                            <div class="justify-content-center p-align-below">
+                                <h5 class="card-title green-text">Uncle Iroh</h5>
+                                <h6 class="card-subtitle green-text">Local Earth Bender</h6>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="card width-card">
+                        <div class="card-body">
+                            <p class="card-text">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
+                                nobis quas ipsum animi ipsa quae doloremque nam, tempore dignissimos dicta."</p>
+                            <h5 class="card-title green-text">Mr Lorem</h5>
+                            <h6 class="card-subtitle mb-2 green-text">Doloribus</h6>
+                        </div>
+                    </div>
+                </div>
+
+
+
             </div>
         </div>
         <!-- NOTE large text section -->
         <div class="container-fluid">
-            <div class="row bg-jasmine-dark pt-md-3">
+            <div class="row bg-jasmine-dark pt-md-3 text-light">
                 <div class="col-12">
                     <h3><strong>Stop on by to the Jasmine Dragon Today and try the Best Tea in the Upper
                             Ring!</strong></h3>

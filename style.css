@@ -85,6 +85,16 @@ header{
     width: 30em;
 }
 
+.padding-shift{
+    padding-left: 2em;
+}
+.perfect-padding{
+
+    padding-right: 160px;
+    padding-top: 75px;
+    padding-left: 90px;
+
+}
 
 /*NOTE @media */
 @media screen and (max-width: 737px) {
@@ -153,6 +163,9 @@ header{
     .form-height{
         width: auto;
     }
+    .padding-shift{
+        padding-left: .8em;
+    }
 }
 @media screen and (max-width: 1239px) and (min-width: 738px) {
     /* .float-card{
@@ -179,7 +192,8 @@ header{
         object-fit: cover;
     }
     .cntr-text{
-        text-align: left;
+        padding-left: 24px;
+    padding-right: 24px;
     }
     .pt-mobile{
         padding-top: 1em;

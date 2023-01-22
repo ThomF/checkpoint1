@@ -183,6 +183,9 @@ header{
     .fire-logo{
         padding-top: 15px;
     }
+    .padding-mobile{
+        padding-left: 1.1em;
+    }
 }
 @media screen and (max-width: 1239px) and (min-width: 769px) {
     /* .float-card{
@@ -229,7 +232,9 @@ header{
     padding-right: 0px;
     padding-left: 30px;
     padding-top: 14px;
-
+    }
+    .card-jd{
+        padding-left: 6em;
     }
     .bb-txt{
         padding: 1em 1em 2em 1em;
@@ -259,15 +264,18 @@ header{
         height: 17.2em;
     }
     .row-vh{
-        height:25vh
+        height:21vh
     }
     .padding-shift{
         padding-left: 4em;
     }
     .bg-vh{
-        height: 50vh;
+        height: 40vh;
     }
     .float-card{
         transform: translateY(1vh);
+    }
+    .card-jd{
+        padding-left: 120px;
     }
 }

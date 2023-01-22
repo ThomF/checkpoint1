@@ -9,6 +9,13 @@ header{
     font-family: Courgette;
 }
 
+.bar{
+    width: .5em;
+    height: 5em;
+    background: var(--background-color);
+}
+
+/* NOTE backgrounds and images */
 .bg-jasmine{
     background-color: var(--main-color);
 }
@@ -98,6 +105,11 @@ header{
 
 /*NOTE @media */
 @media screen and (max-width: 768px) {
+    .bar{
+        width: 0;
+        height: 0;
+        background: var(--background-color);
+    }
     .float-card{
         transform: translateY(0);
     }
@@ -122,8 +134,7 @@ header{
         object-fit: cover;
     }
     .cntr-text{
-        
-            padding-left:12px;
+        padding-left:12px;
         padding-right: 12px;
         
     }
@@ -241,14 +252,22 @@ header{
 }
 
 @media screen and (min-width: 1240px) {
-
-    .float-card{
-        transform: translateY(0);
+    .perfect-padding{
+        padding-left: 0;
     }
     .tall-card{
         height: 17.2em;
     }
     .row-vh{
         height:25vh
+    }
+    .padding-shift{
+        padding-left: 4em;
+    }
+    .bg-vh{
+        height: 50vh;
+    }
+    .float-card{
+        transform: translateY(1vh);
     }
 }

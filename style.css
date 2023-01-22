@@ -227,7 +227,7 @@ header{
         padding-left: 55px;
     }
     .card-padding-l{
-        padding-left: 0;
+        padding-left: 2em;
     }
     .order-card-1{
         order: 1;
